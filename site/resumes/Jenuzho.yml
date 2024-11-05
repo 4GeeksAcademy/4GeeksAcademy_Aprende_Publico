@@ -1,0 +1,93 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "berry"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jen
+    last_name: Uzho
+    
+    # Define yourself in 4-5 words
+    motto: Curiosity, Ambition, Pragmatism, Freethinking
+    
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm Jen Uzho. Although my carrer started in photography,
+      I've recently shifted my passion toward the digital sector.
+      Earlier this year, I worked in Texas in the insurance insdustry, 
+      which allowed me to understand the importance of data in business.
+      Upon returning to Spain, I decided to pursue studies in Data Science 
+      to seize these opportunities and apply my expiricence 
+      to combine my creativity with data analysis to drive innovation in tech starups
+      
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+
+    linkedin: www.linkedin.com/in/jenny-uzho-25a87731a
+
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: jenuzho
+
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+      - idiom: Italiano
+        level: Básico
+
+
+    # Interests or hobies
+    interests:
+      - item: Sports (crossfit, running, swimming, etc.)
+
+      - item: Travel
+
+      - item: Business
+
+# Your previous education
+education:
+    - degree: Grado en Fotografía
+      university: EASD Valencia
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2015 - 2018
+      
+# Your previous job experiences or voluntier
+experiences:
+    - role: Insurance Agent
+      time: 2024
+      company: Trutela, Houston Texas
+      # optional
+      company_logo: https://www.trutela.com/
+      details: |
+        Insurance agent and administrative area.
+
+          - Bullet point
+          - Bullet point
+
+skills:
+    toolset:
+      - name: Photoshop
+        level: 90%"
+
+      - name: Lightroom
+        level: 90%
